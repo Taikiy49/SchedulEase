@@ -13,7 +13,14 @@ const App = () => {
         const newMessages = [...messages, { text: inputText, fromUser: true }];
         setMessages(newMessages);
         setInputText(''); // Clear the input field after sending the message
-
+        
+        const response = await fetch('http://127.0.0.1:5000/send-message', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ message: inputText }),
+        });
     };
 
     const handleInputChange = (e) => {
