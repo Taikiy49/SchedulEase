@@ -103,7 +103,7 @@
 
 .user p {
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 15px;
   background-color: lightblue;
   font-size: 17px;
   color: white;
@@ -117,12 +117,12 @@
   margin-right: auto;
 }
 
-.chatbot{
+.chatbot p{
   color: white;
   background-color: lightblue;
   font-size: 17px;
   margin-right: auto;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 10px;
 }
 

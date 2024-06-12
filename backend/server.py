@@ -13,9 +13,13 @@ def send_message():
     message = data['message']
 
     convo = chatbot._chat_session
+    if message.lower() == "quit":
+        return jsonify({"response": "Thank you for using SchedulEase! We'll see you again next time!"})
     convo.send_message(message)
     response = convo.last.text
+    print(response)
     return jsonify({"response": response})
+
 
 if __name__ == '__main__':
     app.run(debug=True)
