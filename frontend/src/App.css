@@ -108,12 +108,22 @@
   font-size: 17px;
   color: white;
   margin-left: auto;
-  
 }
 
+.chatbot{
+  display: flex;
+  width: auto;
+  max-width: 50%;
+  margin-right: auto;
+}
 
-.chatbot {
+.chatbot{
+  color: white;
   background-color: lightblue;
+  font-size: 17px;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .input-container {
