@@ -29,7 +29,7 @@ class ChatbotSettings:
             generation_config=self._generation_config,
             system_instruction=system_instruction,
         )
-
+        
     def create_chat_session(self):
         self.set_model()
         self._chat_session = self._model.start_chat(history=history)
