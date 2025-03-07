@@ -1,0 +1,20 @@
+how i created the react app
+i had to clear the cache because i was running into some sort of issue creating the react app
+```
+npx clear-npx-cache 
+npx create-react-app a3-final
+```
+ 
+to run the react app, make sure you have nodejs installed! IF U DONT HAVE THIS, UR PROGRAM WILL NOT RUN!
+for mac users you can use homebrew:
+``` 
+brew install node
+```
+for windows or mac users don't have homebrew you can download and install node.js from their website
+
+# HOW TO RUN THE PROGRAM
+cd into the a3-final directory
+then run...
+```
+npm start
+```
